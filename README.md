@@ -1,6 +1,13 @@
 # 🌿 Checkpoint - Machine Learning & Modelling | Statistical Computing with R & Python.
 
-Este repositório contém a entrega do **Checkpoint** integrado para as disciplinas de **Machine Learning & Modelling** e **Statistical Computing with R & Python**. O objetivo do projeto é realizar todo o ciclo de vida de análise de dados, taratamento estatístico e aprendizado de máquina aplicados ao Dataset **IRIS**.
+Neste projeto, mostramos como a análise estatística de dados se integra ao Machine Learning, usando o **Dataset IRIS** — Um dos conjuntos mais conhecidos nessa área. O trabalho foi feito em Python, com três bibliotecas: 
+- Pandas para organizar os dados em tabela
+- NumPy para os cálculos numéricos
+- Scikit-learn, que fornece tanto o dataset quanto o algoritmo KNN.
+
+Antes de qualquer análise, tratamos a qualidade dos dados: verificamos duplicidades, que podem distorcer o treinamento do modelo, e valores ausentes, que podem comprometer os cálculos estatísticos. Em seguida, usamos o `describe()` para resumir estatisticamente as variáveis — média, desvio padrão, mínimo, máximo e quartis.
+
+Com essas etapas, garantimos que os dados estivessem consistentes e prontos para avançar à aplicação do Machine Learning.
 
 ---
 
